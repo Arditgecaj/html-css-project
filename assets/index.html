@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"></head>
+<body>
+  <div id="banner" class="banner">
+    We're open and available for takeaway & delivery. Order Now
+  </div>
+  <div class="container">
+<header>
+    <img src="/assets/images/logo.svg" alt="Website Logo">
+    
+    <input type="checkbox" id="menuToggle">
+    
+    <label for="menuToggle" class="hamburger">&#9776;</label>
+    
+    <div class="dropdown">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <section id="hero-section">
+      <div class="hero-content">
+        <h1>Beautiful food & takeaway, <span>delivered</span> to your door.</h1>
+        <p>Experience the best food from the comfort of your home.</p><a class="btn" href="#">Place an Order</a>
+        <div class="reviews">
+            <img class="truspilot-logo" src="/assets/images/trustpilot-logo.svg" alt="trustpilot">
+          4.8 out of 5 based on 2000+ reviews
+        </div>
+      </div>
+      <div class="hero-image"><img src="/assets/images/hero-right-image.png" alt="Delicious food"></div>
+    </section>
+    <section class="content-section">
+      <div class="text-content">
+        <h2>The home of fresh products</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p><button>Learn more</button>
+      </div>
+      <div class="content-image"><img src="/assets/images/content-image.png" alt="Delicious food"></div>
+    </section>
+    <section id="howitworks">
+      <h2>How it works.</h2>
+      <div class="howitworks-grid">
+        <div class="howitworks-item">
+          <img src="/assets/images/image-circle-1.png" alt="Step 1: Adapt your menu items">
+          <h5>Adapt your menu items</h5>
+          <p>Easily adapt your menu using the webflow CMS and allow customers to browse your items.</p>
+        </div>
+        <div class="howitworks-item">
+          <img src="/assets/images/image-circle-2.png" alt="Step 2: Adapt your menu items"> <!-- Assuming different steps have different images -->
+          <h5>Accept online orders & takeout</h5>
+          <p>Let your customers order and pay via the powerful ecommerce system, or simple let them call your store.</p>
+        </div>
+        <div class="howitworks-item">
+          <img src="/assets/images/image-circle-3.png" alt="Step 3: Adapt your menu items"> <!-- Assuming different steps have different images -->
+          <h5>Manage delivery or takeout</h5>
+          <p>Manage your own logistics and take orders simply through the ecommerce system.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section id="menu-section">
+    <div class="container">
+      <h2>Browse our menu</h2>
+      <p>Use our menu to place an order online, or phone our store to place a pickup order. Fast and fresh food.</p>
+      <div class="menu-tabs">
+        <button class="tab-button active" data-tab="burgers">Food</button> <button class="tab-button" data-tab="sides">Sides</button> <button class="tab-button" data-tab="drinks">Drinks</button>
+      </div>
+      <div class="products-display">
+        <div class="product-list burgers">
+          <div class="product">
+            <div class="product-image"><img src="/assets/images/spaghetti-with-bolognese-sauce-wooden-table.jpg" alt="Spaghrtti Bolognese"></div>
+            <div class="product-details">
+              <h4>Spaghetti Bolognese</h4><span class="price">€ 4.50</span>
+              <p>Italian Style</p>
+              <div class="addtocart">
+                <input type="number" name="quantity" id="quantity" value="1"> <button class="addtocart-btn">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-list burgers">
+          <div class="product">
+            <div class="product-image"><img src="/assets/images/burger.png" alt="Burger Name"></div>
+            <div class="product-details">
+              <h4>Big Burger</h4><span class="price">€ 3.20</span>
+              <p>Best burger.</p>
+              <div class="addtocart">
+                <input type="number" name="quantity" id="quantity" value="1"> <button class="addtocart-btn">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-list burgers">
+          <div class="product">
+            <div class="product-image"><img src="/assets/images/pexels-karyna-panchenko-11118936.jpg" alt="chicken fingers"></div>
+            <div class="product-details">
+              <h4>Chicken Fingers</h4><span class="price">€ 5.50</span>
+              <p>Spicy.</p>
+              <div class="addtocart">
+                <input type="number" name="quantity" id="quantity" value="1"> <button class="addtocart-btn">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-list burgers">
+          <div class="product">
+            <div class="product-image"><img src="/assets/images/pexels-kristina-paukshtite-1146760.jpg" alt="Napoli pizza"></div>
+            <div class="product-details">
+              <h4>Pizza</h4><span class="price">€ 7.50</span>
+              <p>Napoli.</p>
+              <div class="addtocart">
+                <input type="number" name="quantity" id="quantity" value="1"> <button class="addtocart-btn">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="full-menu">
+        <a class="btn fullmenu" href="#">See full menu</a>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+  <section class="content-section">
+    <div class="content-image"><img class="sparkles" src="/assets/images/sparkles.svg" alt="sparkles"> <img src="/assets/images/Order-checkout.png" alt="order online"></div>
+    <div class="text-content">
+      <h2>Order online with our simple checkout.</h2>
+      <p>Quick Order here.</p><button>Learn more</button>
+    </div>
+  </section><!-- End of container -->
+</div>
+  <!-- Footer Section -->
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-widget1">
+        <img src="/assets/images/logo.svg" alt="logo">
+        <p>Takeaway & Delivery template for small - medium businesses.</p>
+      </div>
+      <div class="footer-widget2">
+        <h3>Company</h3>
+        <ul>
+          <li>Home</li>
+          <li>Order</li>
+          <li>FAQ</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-widget3">
+        <h3>TEMPLATE</h3>
+        <ul>
+          <li>Style Guide</li>
+          <li>Changelog</li>
+          <li>Licence</li>
+          <li>Webflow University</li>
+        </ul>
+      </div>
+      <div class="footer-widget4">
+        <h3>Flowbase</h3>
+        <ul>
+          <li>More Cloneables</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
